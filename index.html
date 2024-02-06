@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="pig">
+        <div class="pig__head">
+            <div class="pig__eye pig__eye--left">
+                <div class="pig__pupil">
+                </div>
+            </div>
+            <div class="pig__eye pig__eye--right">
+                <div class="pig__pupil">
+                </div>
+            </div>
+        </div>
+        <div class="pig__body">
+        </div>
+    </div>
+
+    <style>
+        .pig__head {
+            background-color: hotpink;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            position:relative
+            
+        }
+
+       
+        .pig__eye {
+            background-color: azure;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            position:absolute;
+        }
+        
+        .pig__eye--left {
+            left: 20px;
+            top: 20px;            
+        }
+
+        .pig__eye--right {
+            left: 60px;
+            top: 20px;
+        }
+
+        .pig__pupil {
+            background-color: black;
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+            position: absolute;
+            left: 5px;
+            right: 5px;
+        }
+
+        .pig__body {
+            background-color: hotpink;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            position: absolute;
+            left: 5px;
+            top: 55px;
+            
+        }
+
+  </style>
+</body>
+</html>
